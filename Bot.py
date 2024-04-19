@@ -2,7 +2,6 @@ from pyrogram import Client,filters
 from pyrogram.errors import SessionPasswordNeeded,PhoneCodeExpired
 from pyrogram.errors.exceptions.bad_request_400 import PasswordHashInvalid,PhoneCodeInvalid
 from pyrogram.errors.exceptions.not_acceptable_406 import PhoneNumberInvalid
-from pyromod import listen
 API_ID = 26022259
 API_HASH = "fbe8ef03027d2372bf5a646879df8112"
 TOKEN = "6852472981:AAFXjv7DeyvWt3D9w4P_zJOBMP8XI1kGSPE"
